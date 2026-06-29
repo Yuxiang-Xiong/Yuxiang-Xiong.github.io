@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Yuxiang Xiong portrait placeholder</title>
+  <desc id="desc">A simple placeholder image with initials YX.</desc>
+  <rect width="800" height="1000" fill="#f7f8fa"/>
+  <rect x="70" y="70" width="660" height="860" fill="#fff" stroke="#d9dde3" stroke-width="4"/>
+  <circle cx="400" cy="365" r="150" fill="#f7eeee" stroke="#7c2d24" stroke-width="8"/>
+  <path d="M210 795c30-160 120-245 190-245s160 85 190 245" fill="none" stroke="#7c2d24" stroke-width="24" stroke-linecap="round"/>
+  <text x="400" y="392" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="118" font-weight="700" fill="#7c2d24">YX</text>
+</svg>
