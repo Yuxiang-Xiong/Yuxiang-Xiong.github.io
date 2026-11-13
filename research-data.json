@@ -238,6 +238,7 @@
     },
     {
       "slug": "shenshan",
+      "imageRevision": 2,
       "category": "urban",
       "field": "Urban and regional economics",
       "date": "2026-10",
@@ -245,7 +246,7 @@
       "question": "Bringing a factory to a place is one step. Connecting it to local firms, workers, and services is another.",
       "finding": "Shenshan links stronger project delivery and large-scale production with uneven changes in the surrounding local economy.",
       "formalTitle": "From Project Growth to Regional Development: Evidence from the Shenshan Special Cooperation Zone",
-      "alt": "A southern Chinese manufacturing campus connected by roads to housing, shops and a growing town.",
+      "alt": "Conceptual Shenshan landscape bringing together farmland, traditional Chaoshan courtyard houses, old Guangdong residential blocks, factories and a modern business-district skyline.",
       "sections": [
         {
           "heading": "The question",
@@ -292,6 +293,7 @@
     },
     {
       "slug": "green-trade",
+      "imageRevision": 2,
       "category": "trade",
       "field": "Political economy and trade",
       "date": "2026-10",
@@ -299,7 +301,7 @@
       "question": "Close elections offer a way to study political representation and its possible connections to market access.",
       "finding": "The exploratory seat-threshold design shows no simple, stable pattern of higher trade barriers and lower exports.",
       "formalTitle": "Green Parliamentary Representation and Chinese Exports: A Seat-Threshold Study",
-      "alt": "A parliamentary chamber with a small group of green seats overlooking a container port.",
+      "alt": "Green-party representatives voting in a parliamentary chamber beside a shipping route carrying Chinese exports to Europe.",
       "sections": [
         {
           "heading": "The question",
@@ -346,6 +348,7 @@
     },
     {
       "slug": "family-care",
+      "imageRevision": 2,
       "category": "family",
       "field": "Family economics and care",
       "date": "2026-10",
@@ -353,7 +356,7 @@
       "question": "When parents develop health difficulties, adult children can respond through shared living, direct care, or financial support.",
       "finding": "Childhood separation is associated with a weaker shared-living response in some comparisons; direct care is a distinct margin.",
       "formalTitle": "Childhood Parental Absence and Eldercare Support under Parental Health Risks",
-      "alt": "An adult child offering an arm to an older parent in a family home, with another parent nearby.",
+      "alt": "Two stages of family life: a child doing homework beside empty parental chairs, and the same person as an adult helping an older parent who needs care.",
       "sections": [
         {
           "heading": "The question",

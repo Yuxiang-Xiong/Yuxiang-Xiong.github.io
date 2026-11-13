@@ -9,8 +9,9 @@ const month = value => new Date(`${value}-01T12:00:00Z`).toLocaleDateString('en-
 const paragraphs = values => values.map(value => `<p>${escape(value)}</p>`).join('\n');
 
 function image(project, prefix, eager = false) {
-  return `<img src="${prefix}assets/research/${project.slug}.webp"
-    srcset="${prefix}assets/research/${project.slug}-small.webp 640w, ${prefix}assets/research/${project.slug}.webp 1200w"
+  const revision = project.imageRevision ? `?v=${encodeURIComponent(project.imageRevision)}` : '';
+  return `<img src="${prefix}assets/research/${project.slug}.webp${revision}"
+    srcset="${prefix}assets/research/${project.slug}-small.webp${revision} 640w, ${prefix}assets/research/${project.slug}.webp${revision} 1200w"
     sizes="${prefix ? '(max-width: 820px) calc(100vw - 40px), 780px' : '(max-width: 700px) calc(100vw - 40px), (max-width: 1100px) calc((100vw - 68px) / 2), 516px'}"
     width="1536" height="1024" alt="${escape(project.alt)}" decoding="async" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'}>`;
 }
