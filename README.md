@@ -6,6 +6,9 @@ Static personal academic website scaffold for GitHub Pages.
 
 - `index.html` - homepage with bio, research interests, news, and portrait slot.
 - `research.html` - working papers and research experience.
+- `research-data.json` - selected research content, summaries, methods, and tags.
+- `research/` - individual research detail pages.
+- `research.css` - poster gallery and research detail styling.
 - `teaching.html` - teaching, workshop, and service page.
 - `cv.html` - education, skills, contact, and PDF CV link.
 - `styles.css` - shared responsive styling.
@@ -14,6 +17,10 @@ Static personal academic website scaffold for GitHub Pages.
 - `assets/profile-placeholder.svg` - replace with a current portrait when available.
 
 ## GitHub Pages
+
+Research pages are static and work without a server. After editing
+`research-data.json`, run `node tools/build-research.mjs` to regenerate the gallery
+and seven detail pages. Research illustrations are in `assets/research/`.
 
 1. Create a new GitHub repository.
 2. Upload these files to the repository root.

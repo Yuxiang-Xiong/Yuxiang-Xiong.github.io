@@ -1,0 +1,410 @@
+{
+  "updated": "2026-11-13",
+  "categories": [
+    {
+      "id": "environment",
+      "title": "Environment and Biodiversity"
+    },
+    {
+      "id": "trade",
+      "title": "International Trade and Political Economy"
+    },
+    {
+      "id": "urban",
+      "title": "Urban and Regional Development"
+    },
+    {
+      "id": "family",
+      "title": "Family and Care"
+    }
+  ],
+  "projects": [
+    {
+      "slug": "bird-records",
+      "category": "environment",
+      "field": "Environmental measurement",
+      "date": "2026-10",
+      "title": "More birds, or more birdwatchers?",
+      "question": "A longer species list can reflect more watching. How can we recover what early visits missed?",
+      "finding": "Repeat-visit correction reduced measurement error by 33.7% against later, fuller records in a held-out-city validation.",
+      "formalTitle": "Measuring Ecological Outcomes in Economics: Observation Bias and Repeat-Visit Correction in Chinese Citizen Bird Records",
+      "alt": "Birdwatchers recording wetland birds, some of which are partly hidden among reeds.",
+      "sections": [
+        {
+          "heading": "The question",
+          "paragraphs": [
+            "Two visits to the same wetland can produce different species lists. Some birds may have arrived, but others may simply have been missed on the first visit. The distinction matters when economists use bird records to measure environmental change."
+          ]
+        },
+        {
+          "heading": "What this study does",
+          "paragraphs": [
+            "Using Chinese citizen bird records, the study keeps locations fixed and uses repeat sightings to model species presence separately from the chance of recording a species. It estimates the correction outside the cities used for validation.",
+            "In the validation exercise, the model sees only the earliest two visits. Corrected counts are compared with the fuller records accumulated through later visits."
+          ]
+        },
+        {
+          "heading": "What it finds",
+          "paragraphs": [
+            "Average absolute error falls from 5.05 to 3.35 species, a reported reduction of 33.7%. The improvement remains under resampling and re-estimation. Simulations illustrate how accounting for the recording process can recover ecological associations obscured by observation changes."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "Economic activity and policies can change both ecosystems and where people go birdwatching. Separating these processes helps researchers build more informative ecological measures."
+          ]
+        },
+        {
+          "heading": "Interpreting the evidence",
+          "paragraphs": [
+            "The validation reference is the fuller later record, not a census of every species actually present. The correction assumes correct identification, sufficiently complete reporting, and approximately stable species presence during the short repeat-visit window. The percentage uses the manuscript's unrounded values."
+          ]
+        }
+      ],
+      "abstract": "Citizen-science records provide broad ecological coverage, but observation effort also affects measured outcomes. This study uses Chinese citizen bird records, fixed locations, and repeated visits to estimate species missed by limited observation. Validation compares corrected early-visit counts with fuller later records, with estimation conducted outside the cities being evaluated. Repeat-visit correction reduces average absolute error by 33.7%, with improvements retained under resampling and re-estimation. Simulations illustrate how separating species presence from recording can recover associations obscured by observation changes. Applications to mobility and pandemic risk show that measurement choices can materially change regression estimates. The study develops a practical sequence of record checks, spatial definition, correction, and validation for ecological measurement in economics.",
+      "methods": [
+        "China Bird Report records and fixed-location repeat visits.",
+        "Species-presence and recording models; held-out-city validation; resampling and simulations."
+      ],
+      "tags": [
+        "Citizen science",
+        "Biodiversity",
+        "Measurement error"
+      ]
+    },
+    {
+      "slug": "pesticides",
+      "category": "environment",
+      "field": "Agriculture and biodiversity",
+      "date": "2026-10",
+      "title": "Can pesticide rules help farmland birds?",
+      "question": "A national restriction may matter differently across crops, places, and bird communities.",
+      "finding": "Higher vegetable exposure is associated with larger relative gains in recorded farmland-bird diversity after enforcement.",
+      "formalTitle": "Pesticide Restrictions, Vegetable Cultivation, and Bird Diversity: Evidence across Functional Groups in China",
+      "alt": "A farmer inspecting vegetables beside insects, field-margin vegetation and farmland birds.",
+      "sections": [
+        {
+          "heading": "The question",
+          "paragraphs": [
+            "China restricted the use of chlorpyrifos and triazophos on vegetables. Do places growing more vegetables show different changes in bird records, and are the changes strongest among birds linked to farmland?"
+          ]
+        },
+        {
+          "heading": "What this study does",
+          "paragraphs": [
+            "The study combines bird observations from 2013 to 2019 with county crop exposure. A triple-difference design compares sensitive bird groups with other groups, before and after enforcement, across counties with different vegetable shares.",
+            "The main panel covers 488 counties. Farmland and open-country birds are linked to agricultural habitats; insect-eating birds may also be exposed through their food supply."
+          ]
+        },
+        {
+          "heading": "What it finds",
+          "paragraphs": [
+            "Counties with larger vegetable shares show greater relative post-enforcement increases in sensitive-group observed richness, recording frequency, and reported bird counts. The clearest estimates concern farmland and open-country birds. Estimates for insect-eating birds alone are positive but imprecise."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "The ecological relevance of a pesticide rule depends on where regulated crops are grown and which birds interact with those landscapes. The study connects these dimensions instead of treating all birds and farmland alike."
+          ]
+        },
+        {
+          "heading": "Interpreting the evidence",
+          "paragraphs": [
+            "These are observed bird records, which also depend on recording activity. The comparisons do not establish nationwide bird-population recovery. Policy timing, crop-exposure measurement, and the observation process remain important to interpretation."
+          ]
+        }
+      ],
+      "abstract": "This paper studies China's restrictions on chlorpyrifos and triazophos use on vegetables using bird observations from 2013 to 2019. A triple-difference design compares changes in sensitive bird groups relative to other groups before and after enforcement across counties with different vegetable shares. In a panel of 488 counties, higher vegetable exposure is associated with larger post-enforcement relative increases in observed richness, recording frequency, and reported bird counts. The clearest estimates concern farmland and open-country birds; insectivore-only estimates are positive but imprecise. The findings connect crop structure and birds' ecological links to the regulated use, while retaining the distinction between observed diversity and population recovery.",
+      "methods": [
+        "Chinese bird observations; county crop exposure from the Spatial Production Allocation Model.",
+        "County-year-functional-group panel; triple-difference comparisons and event windows."
+      ],
+      "tags": [
+        "Pesticide regulation",
+        "Farmland birds",
+        "Agriculture"
+      ]
+    },
+    {
+      "slug": "trade-birds",
+      "category": "trade",
+      "field": "International trade and ecology",
+      "date": "2026-10",
+      "title": "When trade changes, what happens to birds?",
+      "question": "Economic adjustment can reshape local landscapes. Bird monitoring offers another way to study those changes.",
+      "finding": "The overall richness association is small and uncertain. Species identity and repeated occurrence reveal a more detailed picture.",
+      "formalTitle": "Trade Policy Exposure and Bird Species Richness: Evidence from United States Breeding Bird Surveys",
+      "alt": "Migratory birds above a wetland bordered by a container port, industry and agricultural fields.",
+      "sections": [
+        {
+          "heading": "The question",
+          "paragraphs": [
+            "Trade changes can alter employment, production, and land use. Does exposure to China's receipt of Permanent Normal Trade Relations also appear in repeated bird surveys in the United States?"
+          ]
+        },
+        {
+          "heading": "What this study does",
+          "paragraphs": [
+            "The study links county trade-policy exposure to repeated breeding-bird surveys. It compares more- and less-exposed counties before and after the policy, examining species richness, ecological groups, and the persistence of newly recorded species."
+          ]
+        },
+        {
+          "heading": "What it finds",
+          "paragraphs": [
+            "The overall association with species richness is small and statistically uncertain. Point estimates are more positive on routes with long monitoring histories and for migratory rather than resident species.",
+            "Tracking entries, disappearances, and later sightings distinguishes a change in the length of a species list from a change in the continuity of the local community."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "A single species count can conceal changes in which birds are present and whether they remain. Bringing species identity and persistence into the analysis gives a fuller ecological perspective on economic adjustment."
+          ]
+        },
+        {
+          "heading": "Interpreting the evidence",
+          "paragraphs": [
+            "The findings do not establish that trade improves biodiversity overall. Monitoring history, species composition, and statistical uncertainty are part of the result, not details to be set aside."
+          ]
+        }
+      ],
+      "abstract": "This study links United States exposure to China's receipt of Permanent Normal Trade Relations to repeated breeding-bird surveys. It examines species richness, ecological groups, and the persistence of newly recorded species. Comparisons of more- and less-exposed counties before and after the policy yield a small, statistically uncertain overall richness association. Point estimates are more positive on long-monitored routes and for migratory rather than resident species. Tracking entries, disappearances, and subsequent records distinguishes changes in species counts from the continuity of local communities. The study connects trade-related economic adjustment with species identity and repeated ecological occurrence.",
+      "methods": [
+        "United States Breeding Bird Survey records; county exposure to Permanent Normal Trade Relations.",
+        "Continuous-exposure before-and-after comparisons; monitoring-history checks; species-group and persistence analysis."
+      ],
+      "tags": [
+        "International trade",
+        "Biodiversity",
+        "Species persistence"
+      ]
+    },
+    {
+      "slug": "weather-africa",
+      "category": "environment",
+      "field": "Climate adaptation and information",
+      "date": "2026-09",
+      "title": "Can weather information limit disaster losses?",
+      "question": "Rainfall shocks do not translate into the same human losses everywhere. Local information capacity may be part of the explanation.",
+      "finding": "Station access and disaster losses are associated in some comparisons; the estimates are sensitive to measurement and geographic support.",
+      "formalTitle": "Weather Information and Disaster Death Losses in Africa",
+      "alt": "An automated weather station beside African farmland and a village, with rainfall in the distance.",
+      "sections": [
+        {
+          "heading": "The question",
+          "paragraphs": [
+            "Why can similar weather shocks have different human consequences across places? This project studies whether local weather-station coverage is associated with the losses recorded after rainfall shocks in Africa."
+          ]
+        },
+        {
+          "heading": "What this study does",
+          "paragraphs": [
+            "The project combines rainfall measures, histories of active weather stations, and geographically located disaster records. It compares local areas while accounting for broader regional and time differences.",
+            "It also checks how the findings depend on rainfall products, the assignment of event-level deaths to local areas, and the countries and events that actually support estimation."
+          ]
+        },
+        {
+          "heading": "What it finds",
+          "paragraphs": [
+            "The earlier district-level analysis finds smaller increases in constructed death losses near active stations after rainfall deficits. Later flood-focused checks show that the precision and size of the station association vary with the rainfall measure, geographic allocation, and controls.",
+            "These analyses concern different weather comparisons and should not be read as a single, uniform estimate of lives saved."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "Weather information is one part of adaptation capacity. Understanding its relationship with losses requires examining both the information network and how disasters are reported and located."
+          ]
+        },
+        {
+          "heading": "Interpreting the evidence",
+          "paragraphs": [
+            "Station locations are not randomly assigned, and reported event deaths must be allocated to local areas. Some estimates rely on a small effective set of countries and events. The evidence does not identify the causal effect of building a weather station, and warning receipt or evacuation timing is not directly measured."
+          ]
+        }
+      ],
+      "abstract": "This project examines the relationship between local weather information capacity and disaster death losses in Africa using rainfall data, weather-station histories, and geocoded disaster records. Earlier district-level comparisons associate proximity to active stations with smaller increases in constructed death losses after rainfall deficits. Subsequent flood-focused diagnostics show sensitivity to rainfall measures, spatial allocation of losses, controls, and effective sample support. Recording a disaster and measuring its severity are distinct outcomes. The project studies observational relationships between information infrastructure and losses rather than treating station coverage as a randomly assigned intervention.",
+      "methods": [
+        "District-level rainfall; active weather-station histories; geocoded disaster records.",
+        "Local panel comparisons; alternative rainfall and loss-allocation measures; spatial and effective-sample diagnostics."
+      ],
+      "tags": [
+        "Climate adaptation",
+        "Disaster risk",
+        "Africa"
+      ]
+    },
+    {
+      "slug": "shenshan",
+      "category": "urban",
+      "field": "Urban and regional economics",
+      "date": "2026-10",
+      "title": "When does a major project become local development?",
+      "question": "Bringing a factory to a place is one step. Connecting it to local firms, workers, and services is another.",
+      "finding": "Shenshan links stronger project delivery and large-scale production with uneven changes in the surrounding local economy.",
+      "formalTitle": "From Project Growth to Regional Development: Evidence from the Shenshan Special Cooperation Zone",
+      "alt": "A southern Chinese manufacturing campus connected by roads to housing, shops and a growing town.",
+      "sections": [
+        {
+          "heading": "The question",
+          "paragraphs": [
+            "A city can bring investment and expertise to another place, yet still struggle to coordinate land, infrastructure, approvals, and construction. How do governance arrangements help projects become operational, and how does project growth relate to wider local development?"
+          ]
+        },
+        {
+          "heading": "What this study does",
+          "paragraphs": [
+            "The study examines the Shenshan Special Cooperation Zone around the 2017 shift toward Shenzhen-led governance. It combines synthetic-control comparisons, local spatial grids, land-transfer records, economic-census information, and public accounts of project implementation."
+          ]
+        },
+        {
+          "heading": "What it finds",
+          "paragraphs": [
+            "Built-up space and some infrastructure-related land supply expand. Major industrial projects subsequently reach large-scale production, with industrial employment growth concentrated in large establishments.",
+            "Construction and commercial locations also grow beyond the immediate project surroundings, but their patterns differ from industrial production. Absolute local growth and performance relative to nearby areas are not the same comparison."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "The study connects the organization of project delivery with the geographic reach of growth. Coordinating development tasks can help investment become operational; sustained links with local businesses, workers, and services matter for broader development."
+          ]
+        },
+        {
+          "heading": "Interpreting the evidence",
+          "paragraphs": [
+            "Some estimates vary with measurement, comparison areas, and spatial inference, and some market indicators show pre-existing trends. The project does not equate construction or industrial output with a demonstrated improvement in residents' welfare."
+          ]
+        }
+      ],
+      "abstract": "This paper studies how cross-regional cooperation turns external resources into local project-delivery capacity and regional development. Using the Shenshan Special Cooperation Zone's 2017 governance adjustment, it combines synthetic controls, local grid comparisons, land-transfer records, economic-census information, and public project histories. The evidence shows relative built-up expansion and increased transport and public-facility land supply, followed by large-scale production in major industrial projects. Industrial employment growth is concentrated in larger establishments. Construction and commercial locations also expand outside project surroundings, with patterns distinct from industrial production. The paper connects administrative coordination and project implementation with the distribution of local growth, while distinguishing project scale from wider regional development.",
+      "methods": [
+        "Synthetic controls; local grid and town comparisons; land-transfer records.",
+        "Economic-census information; built-up area, night-time lights and commercial locations; institutional and project histories."
+      ],
+      "tags": [
+        "Regional governance",
+        "Spatial development",
+        "Shenshan"
+      ]
+    },
+    {
+      "slug": "green-trade",
+      "category": "trade",
+      "field": "Political economy and trade",
+      "date": "2026-10",
+      "title": "Do greener parliaments change trade?",
+      "question": "Close elections offer a way to study political representation and its possible connections to market access.",
+      "finding": "The exploratory seat-threshold design shows no simple, stable pattern of higher trade barriers and lower exports.",
+      "formalTitle": "Green Parliamentary Representation and Chinese Exports: A Seat-Threshold Study",
+      "alt": "A parliamentary chamber with a small group of green seats overlooking a container port.",
+      "sections": [
+        {
+          "heading": "The question",
+          "paragraphs": [
+            "Does greater Green representation in European parliaments change the conditions faced by Chinese exporters? Parliamentary representation provides a specific political link between elections and trade."
+          ]
+        },
+        {
+          "heading": "What this study does",
+          "paragraphs": [
+            "The project studies 63 national elections in 13 countries, comparing elections close to reconstructed, approximate Green seat thresholds. It examines representation and exports separately, alongside tariff and product-level non-tariff-measure checks."
+          ]
+        },
+        {
+          "heading": "What it finds",
+          "paragraphs": [
+            "Pooled local estimates show a positive discontinuity in observed Green seat share. The separately estimated export discontinuity is negative but imprecise, and fixed-window comparisons yield different patterns.",
+            "A pooled tariff estimate is negative, while separate product-level checks provide little support for rising non-tariff barriers. These results do not support a simple story in which greater Green representation consistently raises barriers and reduces exports."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "Environmental politics can affect market access through several channels. Distinguishing seats, policies, and trade outcomes helps make the proposed connection testable rather than assuming that they move together."
+          ]
+        },
+        {
+          "heading": "Interpreting the evidence",
+          "paragraphs": [
+            "The thresholds are reconstructed approximations and the design remains exploratory. Results depend on the comparison window and specification. An observed change in parliamentary representation does not by itself establish a precise causal effect on exports."
+          ]
+        }
+      ],
+      "abstract": "This paper studies Green parliamentary representation and Chinese exports to Europe through an exploratory seat-threshold design covering 63 national elections in 13 countries. Comparisons close to reconstructed, approximate Green seat thresholds yield a positive pooled local discontinuity in observed Green seat share. The separately estimated export discontinuity is negative and imprecise. Fixed-window estimates with country and election-year effects yield different patterns. A pooled tariff estimate is negative, while separate product-level non-tariff-measure checks provide little support for rising barriers. The study examines parliamentary representation as a political link between elections and trade, retaining uncertainty about export and policy effects.",
+      "methods": [
+        "European elections and parliamentary representation; Chinese exports by destination and six-digit Harmonized System product.",
+        "Reconstructed seat thresholds; local and fixed-window comparisons; tariffs and non-tariff measures from the United Nations Conference on Trade and Development Trade Analysis Information System."
+      ],
+      "tags": [
+        "Green parties",
+        "Political representation",
+        "International trade"
+      ]
+    },
+    {
+      "slug": "family-care",
+      "category": "family",
+      "field": "Family economics and care",
+      "date": "2026-10",
+      "title": "How does childhood shape care later in life?",
+      "question": "When parents develop health difficulties, adult children can respond through shared living, direct care, or financial support.",
+      "finding": "Childhood separation is associated with a weaker shared-living response in some comparisons; direct care is a distinct margin.",
+      "formalTitle": "Childhood Parental Absence and Eldercare Support under Parental Health Risks",
+      "alt": "An adult child offering an arm to an older parent in a family home, with another parent nearby.",
+      "sections": [
+        {
+          "heading": "The question",
+          "paragraphs": [
+            "How do childhood living arrangements relate to the ways adult children support parents after health difficulties arise? Moving into shared accommodation, providing direct care, and transferring money involve different commitments."
+          ]
+        },
+        {
+          "heading": "What this study does",
+          "paragraphs": [
+            "The study links childhood histories to adult child-parent household records in the China Health and Retirement Longitudinal Study. It tracks the onset of parental functional difficulties and compares changes in shared living, direct care, and material support.",
+            "The updated analysis checks residence nonresponse, sample selection, fixed-start follow-up, and comparisons within families."
+          ]
+        },
+        {
+          "heading": "What it finds",
+          "paragraphs": [
+            "In the corrected adjacent-transition sample, childhood separation is associated with a weaker entry-into-shared-living response. Direct care increases after parental difficulties among children with separation histories, but the difference in care responses between groups is imprecisely estimated.",
+            "Fixed-start and within-family comparisons do not establish a consistent long-run shared-living difference. Financial and in-kind support also do not show a stable compensating pattern."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "Family support cannot be summarized by one outcome. Studying several forms of help connects early family experiences with the practical choices households face when care needs arise."
+          ]
+        },
+        {
+          "heading": "Interpreting the evidence",
+          "paragraphs": [
+            "The shared-living result depends on sample selection and specification. Entering co-residence does not reveal which family member moved. The evidence does not establish that childhood separation causally weakens all forms of eldercare, or that direct care substitutes for shared living."
+          ]
+        }
+      ],
+      "abstract": "This project studies how childhood parental co-residence relates to adult children's support responses when parents develop functional difficulties. Linked life-history and household panel records distinguish entry into shared living, direct care, and material transfers. Updated comparisons correcting residence nonresponse show a weaker shared-living response among children with childhood separation in a selected adjacent-transition sample. Direct care increases after parental difficulties, while group differences in that response are imprecise. Fixed-start follow-up and within-family comparisons do not establish a consistent long-run shared-living effect, and material-support patterns vary. The project treats different forms of family support separately and retains the role of selection, measurement, and specification in interpreting the evidence.",
+      "methods": [
+        "China Health and Retirement Longitudinal Study life-history and child-parent household panel records.",
+        "Adjacent-transition and fixed-start comparisons; pair and family comparisons; residence-measurement and sample-selection checks."
+      ],
+      "links": [
+        {
+          "label": "China Health and Retirement Longitudinal Study",
+          "url": "https://charls.pku.edu.cn/"
+        }
+      ],
+      "presentation": "Presented at the 8th Bimonthly Macroeconomics Workshop, Wuhan University, July 9, 2026.",
+      "tags": [
+        "Family economics",
+        "Eldercare",
+        "Intergenerational relationships"
+      ]
+    }
+  ]
+}
