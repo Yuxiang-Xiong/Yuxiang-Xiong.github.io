@@ -293,7 +293,7 @@
     },
     {
       "slug": "green-trade",
-      "imageRevision": 2,
+      "imageRevision": 3,
       "category": "trade",
       "field": "Political economy and trade",
       "date": "2026-10",
@@ -301,7 +301,7 @@
       "question": "Close elections offer a way to study political representation and its possible connections to market access.",
       "finding": "The exploratory seat-threshold design shows no simple, stable pattern of higher trade barriers and lower exports.",
       "formalTitle": "Green Parliamentary Representation and Chinese Exports: A Seat-Threshold Study",
-      "alt": "Green-party representatives voting in a parliamentary chamber beside a shipping route carrying Chinese exports to Europe.",
+      "alt": "Green-party representatives discussing trade in a parliamentary committee room overlooking a harbor with a container ship carrying Chinese exports.",
       "sections": [
         {
           "heading": "The question",
@@ -348,7 +348,7 @@
     },
     {
       "slug": "family-care",
-      "imageRevision": 2,
+      "imageRevision": 3,
       "category": "family",
       "field": "Family economics and care",
       "date": "2026-10",
@@ -356,7 +356,7 @@
       "question": "When parents develop health difficulties, adult children can respond through shared living, direct care, or financial support.",
       "finding": "Childhood separation is associated with a weaker shared-living response in some comparisons; direct care is a distinct margin.",
       "formalTitle": "Childhood Parental Absence and Eldercare Support under Parental Health Risks",
-      "alt": "Two stages of family life: a child doing homework beside empty parental chairs, and the same person as an adult helping an older parent who needs care.",
+      "alt": "A middle-aged son offering water and supporting his elderly father's arm. An album on the father's lap shows an old photograph of a child beside two empty adult chairs.",
       "sections": [
         {
           "heading": "The question",
