@@ -43,7 +43,7 @@ function document(title, description, content, prefix = '') {
 ${content}
   <footer class="site-footer">
     <span>&copy; <span id="year"></span> Yuxiang Xiong</span>
-    <a href="mailto:Yuxiang.Xiong@student.ie.edu">Yuxiang.Xiong@student.ie.edu</a>
+    <a href="mailto:yuxiang_xiong@whu.edu.cn">yuxiang_xiong@whu.edu.cn</a>
   </footer>
   <script src="${prefix}script.js"></script>
 </body>
